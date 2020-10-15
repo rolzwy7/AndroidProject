@@ -13,7 +13,7 @@ public class Trojkat extends Figura {
 	public Trojkat(float wymiarLiniowy){
 		super(wymiarLiniowy);
 		this.label = "TROJKAT";
-		this.fieldname = "wysokoœci";
+		this.fieldname = "wysokosci";
 	}
 	
 	// dodatkowe METODY  - które nie by³y zdefiniowane w klasie bazowej (Figura), w tym setters i getters
