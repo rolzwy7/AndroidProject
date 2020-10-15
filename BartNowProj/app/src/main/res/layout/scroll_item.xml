@@ -1,0 +1,37 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/scroll_item__image"
+            android:src="@drawable/ic_circle"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight=".33"
+            android:layout_gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/scroll_item__text_pole"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:gravity="center"
+            android:text="Text"
+            />
+
+        <TextView
+            android:id="@+id/scroll_item__text_atrybut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".33"
+            android:gravity="center"
+            android:text="Text"
+            />
+
+    </LinearLayout>
+
+
