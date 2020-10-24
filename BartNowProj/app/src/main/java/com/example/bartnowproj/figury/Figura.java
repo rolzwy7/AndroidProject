@@ -21,7 +21,6 @@ public abstract class Figura {
         return this.icon;
     }
 
-
     // Printing
     public String getFeatureNameFormatted() {
         return String.format("%s\n%.3f", this.feature_name, this.getWymiarLiniowy());

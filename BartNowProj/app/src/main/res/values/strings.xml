@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">BartNowProj</string>
+    <string name="app_name">BartNow</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_statistics">Statystyki</string>
 </resources>
