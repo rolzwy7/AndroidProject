@@ -1,5 +1,21 @@
 <resources>
-    <string name="app_name">BartNow</string>
+    <string name="app_name">Figury</string>
+
     <string name="menu_settings">Ustawienia</string>
     <string name="menu_statistics">Statystyki</string>
+    <string name="menu_add_random_figure">Dodaj losową figurę</string>
+    <string name="menu_remove_and_regenerate">Wylosuj nowe figury</string>
+    <string name="menu_about">O aplikacji</string>
+    <string name="menu_edit">Edytuj</string>
+
+    <string name="about_author">Autor: Bartosz Nowakowski</string>
+    <string name="about_android_versions">Przetestowane dla:\nAndroid 7.0, Android 8.1</string>
+    <string name="about_build_date">Data utworzenia: 29.10.2020</string>
+
+    <string-array name="figures_array">
+        <item>Kawdrat</item>
+        <item>Koło</item>
+        <item>Trójkąt</item>
+    </string-array>
+
 </resources>

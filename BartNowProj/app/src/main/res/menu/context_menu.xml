@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ctx_menu_edit"
+        android:orderInCategory="100"
+        android:title="Edytuj"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/ctx_menu_duplicate"
+        android:orderInCategory="100"
+        android:title="Duplikuj"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/ctx_menu_remove"
+        android:orderInCategory="100"
+        android:title="Usuń"
+        app:showAsAction="ifRoom" />
+
+</menu>

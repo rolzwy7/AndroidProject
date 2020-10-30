@@ -10,7 +10,21 @@
     <item
         android:id="@+id/menu_settings_id"
         android:orderInCategory="100"
-        android:title="@string/menu_settings"
-        app:showAsAction="ifRoom" />
+        android:title="@string/menu_settings" />
+
+    <item
+        android:id="@+id/menu_add_random_figure_id"
+        android:orderInCategory="100"
+        android:title="@string/menu_add_random_figure" />
+
+    <item
+        android:id="@+id/menu_remove_and_regenerate_id"
+        android:orderInCategory="100"
+        android:title="@string/menu_remove_and_regenerate" />
+
+    <item
+        android:id="@+id/menu_about_id"
+        android:orderInCategory="100"
+        android:title="@string/menu_about" />
 
 </menu>
